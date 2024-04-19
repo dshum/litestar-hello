@@ -1,0 +1,17 @@
+[project]
+name = "litestar-hello"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Denis Shumeev", email = "denis-shumeev@yandex.ru"},
+]
+dependencies = [
+    "litestar[standard]>=2.8.2",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
